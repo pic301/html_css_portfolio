@@ -28,7 +28,35 @@ body {
 .background_01 {
   width: 100%;
   height: 100%;
-  background: url("./picture/computer.jpg");
+  background: url("../picture/landscape.jpg");
   background-position: center;
   background-size: cover;
+}
+.contents {
+  color: white;
+  text-align: center;
+  position: absolute;
+  left: 500px;
+  bottom: 500px;
+}
+.content__name {
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.content__job {
+  font-size: 25px;
+  font-weight: bold;
+}
+.content__list{
+  font-size: 0;
+}
+.content__list > li {
+  font-size: 20px;
+  display: inline-block;
+  list-style-type: none;
+  border:1px solid white;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
 }
