@@ -1,0 +1,21 @@
+/* CSS Reset */
+body,ul{
+    margin:0;
+    padding:0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    background-image:url(images/animal-bg.jpg);
+}
+
+.wrapper{
+    background-color:#999;
+    width: 70%;
+    margin: 0 auto;
+} 
