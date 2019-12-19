@@ -15,7 +15,37 @@ body{
 }
 
 .wrapper{
-    background-color:#999;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
+    background-image: url(images/rope.png);
+    background-position: center;
 } 
+.header{
+    text-align: center;
+}
+.logo{
+    display: inline-block;
+    background-image:url(images/logo.png);
+    width: 450px;
+    height: 140px;
+    margin: 50px 0 25px;
+   
+
+}
+.menu{
+    display: inline-block;
+    width:50%;
+    color: rgb(123, 123, 123);
+}
+.menu li{
+    padding: 5px;
+}
+.menu li a{
+    display: block;
+    border: 3px solid;
+    padding: 10px;
+}
+.menu li a:hover{
+    color: orange
+    
+}
