@@ -1,5 +1,5 @@
 /* CSS Reset */
-body,ul{
+body,ul,p{
     margin:0;
     padding:0;
 }
@@ -48,4 +48,28 @@ body{
 .menu li a:hover{
     color: orange
     
+}
+
+.content{
+    background-color: orange;
+}
+
+.footer{
+   text-align: center;
+   color: orange;
+   border-bottom: 10px solid rgb(74, 21, 21);
+}
+
+.footer:before {
+    
+    content: '';
+    background-image: url(images/grass.png);
+    background-position: center;
+    display: block;
+    height: 200px;
+} 
+.footer p{
+    background-color: saddlebrown;
+    
+    padding: 10px 0;
 }
