@@ -55,3 +55,16 @@ body{
 .section li:hover{
     color:orangered;
 }
+
+.initial-see{
+    display:inline-block;
+}
+
+ .initial-noSee{
+    display: none;
+}
+.tab-list h2{
+    display: inline-block;
+    font-size: 1rem;
+    color: orange;
+}

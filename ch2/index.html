@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,26 +8,60 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="wrapper">
-        <div class="head-1"> 
+        <div class="head-1">
             <img class="profile" src="images/halloween-profile.png">
             <h1>
-                    Jack-O’-Lantern
+                Jack-O’-Lantern
             </h1>
             <p>
-                 A jack-o'-lantern is a carved pumpkin, turnip, or other root vegetable lantern associated with Halloween. Its name comes from the phenomenon of a strange light flickering over peat bogs, called will-o'-the-wisp or jack-o'-lantern.     
+                A jack-o'-lantern is a carved pumpkin, turnip, or other root vegetable lantern associated with
+                Halloween. Its name comes from the phenomenon of a strange light flickering over peat bogs, called
+                will-o'-the-wisp or jack-o'-lantern.
             </p>
         </div>
-        <div class="content-1">   
+        <div class="content-1">
             <div class="section">
                 <h2>Infomation</h2>
-                <ul>
-                    <li>이름: 최현준</li>
-                    <li>직업: Front-End Developer</li>
-                    <li>email: pic301@naver.com</li>
-                    <li>github: https://github.com/pic301</li>
+                <ul class="tab-list-wrapper">
+                    <li class="tab-list tab-active" data-tabnum="0">
+                        <a href="#">
+                            <h2>이름:</h2>
+                            <span class="content initial-see">
+                                최현준
+                            </span>
+                        </a>
+                    </li>
+
+                    <li class="tab-list" data-tabnum="1">
+                        <a href="#">
+                            <h2>직업:</h2>
+                            <span class="content initial-noSee">Front-End
+                                Developer
+                            </span>
+
+                        </a>
+                    </li>
+                    <li class="tab-list" data-tabnum="2">
+                        <a href="#">
+                            <h2>email:</h2>
+                            <span class="content initial-noSee">
+                                pic301@naver.com
+                            </span>
+                        </a>
+                    </li>
+                    <li class="tab-list" data-tabnum="3">
+                        <a href="#">
+                            <h2>github:</h2>
+                            <span class="content initial-noSee">
+                                https//github.com/pic301
+                            </span>
+                        </a>
+                    </li>
                 </ul>
+
             </div>
             <div class="section">
                 <h2>Skills</h2>
@@ -38,10 +73,12 @@
                 </ul>
             </div>
 
-</div>
+        </div>
         <div class="footer-1">HALLOWEEN</div>
     </div>
+    <script src="index.js"></script>
 
-    
+
 </body>
+
 </html>
