@@ -1,5 +1,4 @@
-body,ul {
-    padding: 0;
+body,h1,p {
     margin: 0;
 }
 li{
@@ -36,13 +35,134 @@ body{
     float: right;
     background-color:white;
     width: 250px;
-    height: 400px;
     margin-left: 20px;
-    
+    text-align: center;
+}
+
+.sidebar-section{
+    margin-top: 20px;
 }
 
 .contents{
-    background-color:white;
     padding: 30px; 
     overflow: hidden;
+}
+
+.cover{
+    width: 100%;
+    margin-top: -100px;
+}
+
+.title{
+    line-height: 1;
+    color: #80a7bf;
+}
+
+.price{
+    color: #80a7bf;
+    font-size: 30px;
+}
+
+.price::before{
+    content:"$";
+    font-size: 0.75em;
+    margin-right:0.2em;
+    vertical-align: middle;
+    opacity: 0.7;
+}
+
+.button{
+    background-color: #80a7bf;
+    color: white;
+    display: block;
+    margin: 5px 20px;
+    padding: 12px 0 10px 0 ;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    text-indent: 0.2em;
+}
+.button.share{
+    background-color: #aaa;
+}
+.section{
+    
+    margin-bottom: 20px;
+} 
+.section:last-child{
+    margin-bottom: 0;
+}
+.section h2{
+    border-bottom: 2px solid #ddd;
+    color: #80a7bf;
+    margin-bottom: 20px;
+}
+
+.message{
+    
+    margin-top: 10px;
+    overflow: hidden;
+}
+.message:last-child{
+    margin-bottom: 0;
+}
+.message.answer .message-profile{
+    float: right;
+}
+
+.message.answer .message-profile::after{
+    display: none; 
+
+}
+
+.message.answer .message-profile::before{
+    display: inline-block; 
+
+}
+
+.message-profile {
+    float: left;
+}
+
+.message-profile img {
+    border-radius: 50%
+}
+.message-profile::before,
+.message-profile::after,
+.message-profile img{
+    vertical-align: middle;
+}
+.message-profile::before,
+.message-profile::after{
+    content:' ';
+    width: 0;
+    height: 0;
+    display: inline-block;
+ 
+    border-width: 10px;
+    border-style: solid;
+}
+.message-profile::before{
+    border-color: transparent transparent transparent #ddd ;
+    display: none;
+}
+.message-profile::after{
+    border-color: transparent #ddd transparent transparent ;
+}
+.message-contents {
+    background-color: #ddd;
+    padding: 20px; 
+    overflow: hidden;
+    border-radius: 3px;
+}
+.star::before,
+.star{
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    background-image: url(images/star-sprite.png)
+}
+.star::before{
+    content:' ';
+    display: block;
+    background-position: left bottom;
 }
