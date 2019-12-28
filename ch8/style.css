@@ -1,0 +1,10 @@
+body, h1{
+    margin: 0;
+}
+h1{
+    font-size: 100%;
+}
+.cover{
+    background-color:antiquewhite;
+    background-image: url(images/background.png)
+}
